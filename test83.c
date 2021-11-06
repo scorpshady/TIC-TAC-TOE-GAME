@@ -132,7 +132,7 @@ int fillinelement(int position)
 			box++;
 			if (position == box)
 			{
-				if (matrix[i][j] != first && matrix[i][j] != second) //made a change here || instead of &&
+				if (matrix[i][j] != first && matrix[i][j] != second) 
 				{
 					return 0;
 				}
